@@ -15,15 +15,10 @@
     $linki = [$link1, $link2, $link3];
 
     echo "<h1>$title</h1>";
-
     for ($i = 0; $i < sizeof($linki); $i++) {
         $link = $linki[$i];
         echo "<p> <a href='$link'>$link</a> <p>";
     }
-    
     ?>
-
-    
-
 </body>
 </html>

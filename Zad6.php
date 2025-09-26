@@ -25,14 +25,9 @@
     $number = 77;
     $multipliers = [1,2,3,4];
     ?>
-
     <table class="tabela">
         <tr>
-            <?php
-            foreach ($multipliers as $multiplier) {
-                echo '<th>'.($number * $multiplier).'</th>';
-            }
-            ?>
+            <?php foreach ($multipliers as $multiplier) echo '<th>'.($number * $multiplier).'</th>';?>
         </tr>
     </table>
 </body>

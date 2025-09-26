@@ -6,9 +6,7 @@
     <title>Makbet</title>
 </head>
 <body>
-    <?php
-        $quote = "Niech będzie, co będzie; czas wszystko równo w swym unosi pędzie."
-    ?>
+    <?php $quote = "Niech będzie, co będzie; czas wszystko równo w swym unosi pędzie."?>
     <p><q><?=$quote?></q></p>
     <p><?=strlen($quote)?></p>
 </body>
