@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.teksty {
+    margin : 10px 80px;
+    font-style: italic;
+    font-size: 15px;
+    color: azure;
+}
