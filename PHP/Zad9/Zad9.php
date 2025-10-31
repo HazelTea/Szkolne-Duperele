@@ -35,6 +35,6 @@
         MethodToString($startString,$argArray,$method);
     }
     ?>
-    <p> Funkcja abs dla liczby -2 zwraca wynik : <?= abs(-2) ?> </p>
+    <?= "test" ?>
 </body>
 </html>
