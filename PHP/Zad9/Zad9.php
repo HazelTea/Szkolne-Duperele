@@ -35,6 +35,5 @@
         MethodToString($startString,$argArray,$method);
     }
     ?>
-    <?= "test" ?>
 </body>
 </html>
