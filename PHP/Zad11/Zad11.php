@@ -12,7 +12,7 @@
     $liczba3 = 1.2;
     $liczba4 = -1.0E-5;
     $numbers = [$liczba1,$liczba2,$liczba3,$liczba4];
-    $dodaj = 159.85;
+    $dodaj = "59.85" + 100;
 
     $variables = [
         ['PHP_INT_MAX',PHP_INT_MAX],
