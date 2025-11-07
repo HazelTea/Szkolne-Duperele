@@ -1,0 +1,11 @@
+.tekst {
+    border-color: orange;
+    border-style:solid;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 30px;
+    border-bottom-width: 30px;
+    text-align: center;
+    color: blue;
+
+}
