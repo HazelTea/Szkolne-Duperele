@@ -1,0 +1,31 @@
+.hand_one {
+    display: inline-block;
+    transform: rotate(90deg); 
+}
+
+.hand_two {
+    display: inline-block;
+    transform: rotate(-90deg); 
+}
+
+.hand_three {
+    display: inline-block;
+    transform: scaleX(-1) 
+}
+
+.hand_four {
+    display: inline-block;
+}
+
+.tekst_1 {
+    color:rgb(200, 117, 233);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.tekst_2 {
+    color:purple;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: overline;
+}
