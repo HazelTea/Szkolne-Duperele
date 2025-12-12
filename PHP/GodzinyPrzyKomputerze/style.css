@@ -1,0 +1,30 @@
+.main_table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td {
+    border: medium double black;
+    padding: 10px;
+
+}
+
+.headers_left_space {
+    border: 0px;
+}
+
+.time {
+    box-shadow: 0 0 5px red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+
+strong {
+    background-color: lightskyblue;
+    border-radius : 5px;
+    font-weight:bold;
+    padding: 2px;
+}
