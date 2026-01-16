@@ -12,6 +12,10 @@ th, td {
 
 }
 
+.bottom_th {
+    column-span: 8;
+}
+
 .headers_left_space {
     border: 0px;
 }
