@@ -1,0 +1,10 @@
+.number_list {
+    color: yellowgreen;
+    border-top: double 10px;
+    border-bottom: double 10px;
+    border-color: greenyellow;
+    font-size: 24px;
+    padding: 10px 10px;
+    text-shadow: 1px 1px 5px forestgreen;
+    text-align: center;
+}
