@@ -15,13 +15,11 @@
         for ($y=0; $y <= $count; $y++) { 
             echo "<tr>";
             for ($x=0; $x <= $count; $x++) { 
-                $selected_values = abs($count / 2 + ($y - $count)) == $x;
-                $selected_values2 = abs($count / 2 - ($y + $count)) == $x;
-                // $selected_values2 = ($count / 2 - abs($count + ($y + $x)));
-                // $selected_values_second = abs($count + ($y - $x));
-                // $test = $selected_values == $x || $selected_values_second == $x;
-                $class = $selected_values || $selected_values2 ? "selected" : ''; 
-                echo "<td class=$class>$y|$x, $selected_values2</td>";
+                $amper = $count / 2 - abs($y - $count / 2);
+                $test1 = ($count / 2 - $amper) == $x;
+                $test2 = ($count / 2 + $amper) == $x;
+                $class = $test1 || $test2 ? "selected" : ''; 
+                echo "<td class=$class>$x|$y, $test2</td>";
             };
             echo "</tr>";
         }
