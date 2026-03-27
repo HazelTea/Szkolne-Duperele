@@ -1,0 +1,22 @@
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px black dotted;
+    padding : 5px;
+    background-color:beige;
+}
+
+.num_bold {
+    font-weight: bold;
+    
+    background-color:burlywood;
+}
+
+.num_crossed {
+    
+    background-color:bisque;
+}

@@ -1,0 +1,35 @@
+span {
+    background-color: blue;
+    color:white
+}
+
+em {
+    background-color: orange;
+    color: brown
+}
+
+strong {
+    background-color: green;
+    color: lime
+}
+
+a {
+    background-color: red;
+    color:lightpink
+}
+
+div.blue {
+    background-color: blue;
+}
+
+div.yellow {
+    background-color: yellow;
+}
+
+li.green {
+    background-color: green;
+}
+
+li.red {
+    background-color: red;
+}
