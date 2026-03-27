@@ -19,7 +19,7 @@
                 $test1 = ($count / 2 - $amper) == $x;
                 $test2 = ($count / 2 + $amper) == $x;
                 $class = $test1 || $test2 ? "selected" : ''; 
-                echo "<td class=$class>$x|$y, $test2</td>";
+                echo "<td class=$class>$x|$y</td>";
             };
             echo "</tr>";
         }
