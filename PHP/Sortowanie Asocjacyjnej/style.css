@@ -1,0 +1,16 @@
+table, th, td {
+    border: 1px black solid;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding : 5px;
+}
+
+.table_container {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    width: 1000px;
+    
+}
