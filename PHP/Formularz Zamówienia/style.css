@@ -5,3 +5,17 @@
 .input--invalid {
     outline: red;
 }
+
+.err_message {
+    color: red;
+    font-size: 12px;
+}
+
+.err_message--outline {
+    border: 1px red solid;
+    /* outline: 1px red solid; */
+}
+
+body {
+    background-color: lightgreen;
+}
