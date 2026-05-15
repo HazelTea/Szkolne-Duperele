@@ -1,0 +1,12 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th, tr {
+    border: 1px solid black;
+}
+
+tr > td:nth-child(2) {
+    text-align: right;
+}
