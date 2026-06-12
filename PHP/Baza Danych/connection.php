@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$user = $db = "glejzer";
+$user = $db = "glejzerd";
 $pass = "2222";
 
 $GLOBALS['conn'] = mysqli_connect($servername, $user, $pass, $db);

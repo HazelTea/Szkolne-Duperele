@@ -1,0 +1,21 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.985em;
+}
+
+table {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+}
+
+td, th, tr {
+    border: 1px dotted black;
+    padding: 7px;
+    color: grey;
+    text-align: center;
+}
+
+th {
+    color:black;
+    border-style: solid;
+}
